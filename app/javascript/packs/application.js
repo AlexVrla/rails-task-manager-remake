@@ -9,3 +9,12 @@ import "channels"
 
 Rails.start()
 Turbolinks.start()
+
+require("@rails/ujs").start()
+require("turbolinks").start()
+require("channels")
+
+
+//= require rails-ujs
+//= require turbolinks
+//= require_tree .
